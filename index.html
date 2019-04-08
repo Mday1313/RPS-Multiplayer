@@ -14,15 +14,14 @@
 <body>
     <div class="container">
 
-       
+
         <nav class="navbar navbar-dark bg-dark">
-                <span class="navbar-brand text-center mb-0 h1">Rock, Paper, Scissors</span>
-              </nav>
+            <span class="navbar-brand text-center mb-0 h1">Rock, Paper, Scissors</span>
+        </nav>
 
         <div class="row">
-            <div class="form-group col">
-                <label for="player-1">Player One. Enter your name.</label>
-                <input type="text" class="form-control" id="player-1-input">
+            <div class="col">
+                    <h2 class="player-1"></h2>
                 <div class="rps-choice" id="one">
                     <div>
                         <span><i class="far fa-hand-rock" id="r-1"></i></span>
@@ -34,16 +33,26 @@
 
 
             <div class="card results col">
-                <div class="player-1-pick"></div>
-                <div class="player-2-pick"></div>
+                <div class="row">
+                    <div class="form-group col">
+                        <label for="player"id="input-label">Waiting for Player. Enter your name.</label>
+                        <input type="text" class="form-control" id="player-input">
+                        
+                        <button class="btn btn-dark" id="add-player" type="submit">Sign In</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col player-1-pick"></div>
+                    <div class="col player-2-pick"></div>
+                </div>
             </div>
             <div class="results-display"></div>
 
-            <div class="form-group col">
-                <label for="player-2">Player Two. Enter your name.</label>
-                <input type="text" class="form-control" id="player-2-input">
+            <div class="col">
+                    <h2 class="player-2"></h2>
                 <div class="rps-choice" id="two">
                     <div>
+                        
                         <span><i class="far fa-hand-rock" id="r-2"></i></span>
                         <span><i class="far fa-hand-paper" id="p-2"></i></span>
                         <span><i class="far fa-hand-scissors" id="s-2"></i></span>

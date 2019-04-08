@@ -1,4 +1,4 @@
-#r-1, #p-1, #s-1, #r-2, #p-2, #s-2 {
+#r-1, #p-1, #s-1, #r-2, #p-2, #s-2, .player-1-pick, .player-2-pick {
     font-size: 48px;
     margin: 10px;
     padding: 10px;
