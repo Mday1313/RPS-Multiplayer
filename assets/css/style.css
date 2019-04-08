@@ -1,0 +1,9 @@
+#r-1, #p-1, #s-1, #r-2, #p-2, #s-2 {
+    font-size: 48px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-group, .results {
+    margin-top: 30px;
+}
